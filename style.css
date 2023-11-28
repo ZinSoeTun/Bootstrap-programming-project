@@ -1,0 +1,222 @@
+/* body start */
+body {
+    height: 900vh;
+    scroll-behavior: smooth;
+    font-family: serif;
+}
+/* body end */
+/* nav start */
+.MAX-5xlogo {
+    width: 50px;
+    margin: 0px 20px;
+}
+.navbar-brand {
+    font-family: serif;
+}
+.nav-item a {
+    font-family: serif;
+    font-size: large;
+}
+.hello:hover {
+    background-color:black;
+    border-radius: 10px;
+    text-align: center;
+}
+/* nav end */
+
+/* header start */
+.beside {
+    color: darkgreen;
+    margin-right: 12px;
+    font-size: 30px;
+}
+    .beside:hover {
+      transform: scale(1.2);
+      transition: 1s;
+    }
+   
+/* header end */
+
+/* home start */
+@media screen and (min-width:1200px) {
+    .hello-world {
+        margin-top: 30px;
+    }
+}
+/* home end */
+
+/* list start */
+    @media  screen and ( min-width:768px)and (max-width:992px) {
+        .bat {
+            height: 650px;
+        }
+    }
+    @media  screen and ( min-width:992px){
+        .bat {
+            height: 580px;
+        }
+    }
+/* list end */
+
+/* about start */
+.abouttext {
+    text-align: justify;
+}
+@media screen and (min-width: 1200px){
+    .aboutimage {
+        display: inline-block;
+        height: 715px;
+    }
+}
+/* about end */
+
+/* event start */
+@media  screen and ( max-width:500px) {
+    .eventImage {
+        height: 250px;
+    }
+}
+@media  screen and ( min-width:500px) {
+    .eventImage {
+        height: 300px;
+    }
+}
+@media  screen and ( min-width:768px) {
+    .eventImage {
+        height: 400px;
+    }
+}
+@media  screen and ( min-width:992px) {
+    .eventImage {
+        height: 500px;
+    }
+}
+@media  screen and ( min-width:1200px) {
+    .eventImage {
+        height: 600px;
+    }
+}
+@media  screen and ( min-width:1400px) {
+    .eventImage {
+        height: 680px;
+    }
+}
+
+
+
+/* event end */
+
+/* gallery start */
+@media  screen and (max-width:764px){
+    .mainImage img {
+        width: 100%;
+        height: 300px ;
+    }
+}
+.imgArrow {
+    position: relative;
+    bottom: 170px;
+}
+.imgNext {
+    float: right;
+}
+.imgPrev, .imgNext {
+    color: green;
+    transition: 1s;
+    align-self: center;
+}
+.imgPrev:hover, .imgNext:hover {
+color: blue;
+}
+.imgPrev:hover {
+   transform: translate(-10px);
+}
+.imgNext:hover {
+    transform: translate(10px);
+}
+.smallImage img {
+   display: none;
+}
+@media screen and (min-width:756px) {
+    .mainImage img {
+        width: 100%;
+        height: 500px;
+    }
+}
+@media screen and (min-width:757px) and (max-width: 768px) {
+    .imgArrow {
+        bottom: 250px;
+    }
+}
+@media screen and (min-width:768px) {
+    .imgArrow {
+        bottom: 230px;
+    }
+}
+@media screen and (min-width:992px) {
+    .imgArrow {
+        bottom: 320px;
+    }
+}
+@media screen and (min-width:992px) {
+    .imgArrow {
+        bottom: 280px;
+    }
+}
+@media screen and (min-width:1000px) {
+    .smallImage img {
+        display: block;
+        width: 220px;
+        height: 80px;
+     }
+}
+@media screen and (min-width:1200px) {
+    .imgArrow {
+        bottom: 280px;
+    }
+}
+
+/* gallery end */
+
+/* contact start */
+.contactDiv {
+    background-color: black;
+    height: 100px;
+}
+.contactDiv:hover .contactIcon {
+    color: blue;
+}
+@media screen and (min-width:992px){
+    .contactDiv {
+       width: 400px;
+       margin: 0px 20px;
+       text-align: center;
+      
+    }
+}
+/* contact end */
+
+/* footer start */
+.footerImg1 {
+    width: 25%;
+    color: green;
+}
+.footerImg2 {
+    width: 50%;
+    margin-left: 70px;
+    margin-top: 25px;
+    margin-right: 70px;
+    margin-bottom: 20px;
+    display: none;
+}
+@media screen and (min-width:992px) {
+    .footerImg1 {
+        display: none;
+    }
+    .footerImg2 {
+        display: inline-block;
+    }
+}
+/* footer end */
+
+/* white mode */
