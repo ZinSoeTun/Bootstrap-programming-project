@@ -1,1 +1,3 @@
-# Bootstrap-programming-project
+- Bootstrap-programming-project is dynamic project copying w3school website without backend . so you can't type search bar...
+- Languages uses
+       -HTML  CSS JS
